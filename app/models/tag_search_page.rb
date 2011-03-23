@@ -64,7 +64,7 @@ class TagSearchPage < Page
     return @found_tags if @found_tags
     return []          if requested_tag.blank?
     
-    @found_tags = Page.tagged_with(requested_tag).delete_if { |p| !p.published? }
+    @found_tags = Page.tagged_with_any(requested_tag).delete_if { |p| !p.published? }
   end
   
   def render
