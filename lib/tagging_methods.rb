@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 TaggingMethods = Proc.new do
   
   def valid_with_tags?

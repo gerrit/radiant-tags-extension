@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 require 'test/unit'
 # Load the the environment
 unless defined? RADIANT_ROOT

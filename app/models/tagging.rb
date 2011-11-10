@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 class Tagging < ActiveRecord::Base
   belongs_to :meta_tag 
   belongs_to :taggable, :polymorphic => true

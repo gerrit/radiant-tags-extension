@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 module RadiusTags
   include Radiant::Taggable
   include ActionView::Helpers::TextHelper

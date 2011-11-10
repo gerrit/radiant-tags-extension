@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 module RenderTestHelper
   
   def assert_renders(expected, input, url = nil, host = nil)

@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 class MetaTag < ActiveRecord::Base
 
   if Radiant::Config['tags.complex_strings'] == 'true'

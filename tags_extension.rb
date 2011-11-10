@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 require_dependency 'application_controller'
 require File.dirname(__FILE__)+'/lib/tagging_methods'
 require 'radiant-tags-extension'

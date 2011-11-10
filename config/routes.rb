@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 ActionController::Routing::Routes.draw do |map|
   if Radiant::Config['tags.results_page_url'].blank?
     Radiant::Config['tags.results_page_url'] = TagsExtension::DEFAULT_RESULTS_URL if Radiant::Config['tags.results_page_url'].blank?
